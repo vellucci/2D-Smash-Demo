@@ -1,0 +1,25 @@
+﻿Build started 2016-03-25 2:31:21 PM.
+     1>Project "C:\Users\danve\Documents\Visual Studio 2013\Projects\2D Smash Demo\2D Smash Demo\2D Smash Demo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I./ /I"C:\SFML-2.3.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Box2DTesting.cpp Main.cpp
+         Main.cpp
+         Box2DTesting.cpp
+     1>c:\users\danve\documents\visual studio 2013\projects\2d smash demo\2d smash demo\box2dtesting.cpp(15): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\danve\Documents\Visual Studio 2013\Projects\2D Smash Demo\Debug\2D Smash Demo.exe" /INCREMENTAL /NOLOGO /LIBPATH:./lib /LIBPATH:"C:\SFML-2.3.2\lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" Box2D.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\danve\Documents\Visual Studio 2013\Projects\2D Smash Demo\Debug\2D Smash Demo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\danve\Documents\Visual Studio 2013\Projects\2D Smash Demo\Debug\2D Smash Demo.lib" /MACHINE:X86 Debug\Box2DTest.obj
+         Debug\Box2DTesting.obj
+         Debug\CharacterCtrlTest.obj
+         Debug\Game.obj
+         Debug\IntroScreen.obj
+         Debug\Main.obj
+         Debug\MainMenu.obj
+         Debug\MyContactListener.obj
+         Debug\ResourceLoader.obj
+         Debug\SoundManager.obj
+         2D Smash Demo.vcxproj -> C:\Users\danve\Documents\Visual Studio 2013\Projects\2D Smash Demo\Debug\2D Smash Demo.exe
+     1>Done Building Project "C:\Users\danve\Documents\Visual Studio 2013\Projects\2D Smash Demo\2D Smash Demo\2D Smash Demo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.38
